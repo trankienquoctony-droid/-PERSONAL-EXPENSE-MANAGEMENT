@@ -68,5 +68,5 @@ Khi chạy chương trình, màn hình sẽ hiển thị menu tương tác:
 
 ## 👤 Tác giả
 
-- **Người thực hiện:** [Tên của bạn]
+- **Người thực hiện:** [Trần Kiến Quốc]
 - **Lớp / Khóa học:** Lập trình C++ cơ bản
