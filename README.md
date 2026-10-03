@@ -1,72 +1,72 @@
-# QUẢN LÝ CHI TIÊU CÁ NHÂN (C++ CONSOLE)
+# PERSONAL EXPENSE MANAGEMENT (C++ CONSOLE)
 
-Chương trình console C++ đơn giản giúp theo dõi thu nhập, chi tiêu, quản lý ngân sách và báo cáo số dư tài chính cá nhân.
-
----
-
-## 📌 Tính năng chính
-
-- **Quản lý giao dịch:** Thêm giao dịch Thu/Chi mới và xem lịch sử danh sách giao dịch.
-- **Ngân sách & Cảnh báo:** Thiết lập hạn mức chi tiêu tối đa và tự động phát cảnh báo khi tổng chi tiêu vượt mức.
-- **Báo cáo tài chính:** Thống kê tổng thu, tổng chi và tính toán số dư hiện tại.
+A simple C++ console program that helps track income, expenses, manage budgets, and generate personal financial balance reports.
 
 ---
 
-## 🛠 Yêu cầu hệ thống & Cài đặt
+## 📌 Main Features
 
-- **Trình biên dịch C++:** GCC/MinGW, Clang hoặc MSVC (hỗ trợ C++11 trở lên).
-- **Hệ điều hành:** Windows, macOS, Linux.
+- **Transaction Management:** Add new income/expense transactions and view the transaction history list.
+- **Budget & Alerts:** Set a maximum spending limit and automatically warn when total expenses exceed the limit.
+- **Financial Reporting:** Calculate total income, total expenses, and current balance.
 
 ---
 
-## 🚀 Hướng dẫn biên dịch & Chạy chương trình
+## 🛠 System Requirements & Setup
 
-### 1. Biên dịch mã nguồn
+- **C++ Compiler:** GCC/MinGW, Clang, or MSVC (supports C++11 or later).
+- **Operating System:** Windows, macOS, Linux.
 
-Sử dụng `g++` để biên dịch file `main.cpp`:
+---
+
+## 🚀 Compilation & Run Instructions
+
+### 1. Compile the source code
+
+Use `g++` to compile the `main.cpp` file:
 
 ```bash
 g++ main.cpp -o main
 ```
 
-### 2. Chạy chương trình
+### 2. Run the program
 
-- **Trên Windows:**
+- **On Windows:**
   ```cmd
   main.exe
   ```
-- **Trên Linux / macOS:**
+- **On Linux / macOS:**
   ```bash
   ./main
   ```
 
 ---
 
-## 📖 Hướng dẫn sử dụng
+## 📖 How to Use
 
-Khi chạy chương trình, màn hình sẽ hiển thị menu tương tác:
+When the program starts, the interactive menu will be displayed:
 
 ```text
 =================================
   QUAN LY CHI TIEU DON GIAN
 =================================
-1. Them giao dich moi (Thu/Chi)
-2. Xem danh sach giao dich
-3. Dat ngan sach chi tieu
-4. Xem bao cao so du
-0. Thoat
+1. Add new transaction (Income/Expense)
+2. View transaction list
+3. Set spending budget
+4. View financial report
+0. Exit
 =================================
 ```
 
-- Nhập `1` để nhập loại giao dịch, tên danh mục (viết liền, ví dụ: `An_uong`) và số tiền.
-- Nhập `2` để hiển thị bảng lịch sử thu chi.
-- Nhập `3` để cài đặt hạn mức cảnh báo chi tiêu.
-- Nhập `4` để xem tổng quan thu/chi và số dư tài khoản.
-- Nhập `0` để kết thúc chương trình.
+- Enter `1` to add a new transaction type, category name (without spaces, e.g. `An_uong`), and amount.
+- Enter `2` to display the income/expense history table.
+- Enter `3` to set the spending warning limit.
+- Enter `4` to view the summary of income/expenses and account balance.
+- Enter `0` to exit the program.
 
 ---
 
-## 👤 Tác giả
+## 👤 Author
 
-- **Người thực hiện:** [Trần Kiến Quốc]
-- **Lớp / Khóa học:** Lập trình C++ cơ bản
+- **Implemented by:** [Trần Kiến Quốc]
+- **Class / Course:** Basic C++ Programming
